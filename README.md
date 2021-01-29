@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Project is in progress...
+Project is in progress..
 
 ## Available Scripts
 
