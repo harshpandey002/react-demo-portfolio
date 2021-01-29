@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+This is not my portfolio, this project is for learning purpose.\
 This Project is in Progress...
 
 ## Available Scripts
