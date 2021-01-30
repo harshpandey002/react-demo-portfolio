@@ -7,29 +7,24 @@ const About = () => {
   return (
     <AboutSec>
       <Description>
-        <div className="title">
+        <motion.div>
           <Hide>
-            <motion.h2
-              animate={{ opacity: 1, transition: { duration: 2 } }}
-              initial={{ opacity: 0 }}
-            >
-              We work to make
+            <motion.h2>We work to make</motion.h2>
+          </Hide>
+          <Hide>
+            <motion.h2>
+              your <span>dreams</span> come
             </motion.h2>
           </Hide>
           <Hide>
-            <h2>
-              your <span>dreams</span> come
-            </h2>
+            <motion.h2>true.</motion.h2>
           </Hide>
-          <Hide>
-            <h2>true.</h2>
-          </Hide>
-          <p>
-            Contact us for any photography or videography ideas that you have.
-            we are professionals with amazing skills
-          </p>
-          <button>Contact Us</button>
-        </div>
+        </motion.div>
+        <p>
+          Contact us for any photography or videography ideas that you have. we
+          are professionals with amazing skills
+        </p>
+        <button>Contact Us</button>
       </Description>
       <Image>
         <img src={home1} alt="guy with a camera" />
