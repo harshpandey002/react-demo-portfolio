@@ -2,13 +2,13 @@ import Nav from "./components/Nav";
 import AboutUs from "./pages/AboutUs";
 import OurWork from "./pages/OurWork";
 import ContactUs from "./pages/ContactUs";
+import MovieDetail from "./pages/MovieDetail";
 
 import GlobalStyle from "./components/GlobalStyle";
 
 import { Switch, Route, useLocation } from "react-router-dom";
-import MovieDetail from "./pages/MovieDetail";
-
 import { AnimatePresence } from "framer-motion";
+
 function App() {
   const location = useLocation();
   console.log(location);
