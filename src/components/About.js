@@ -1,5 +1,7 @@
 import home1 from "../img/home1.png";
 import styled from "styled-components";
+import Wave from "./Wave";
+
 import { AboutSec, Description, Image, Hide } from "../style";
 import { motion } from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../animation";
@@ -29,6 +31,7 @@ const About = () => {
       <Image>
         <motion.img variants={photoAnim} src={home1} alt="guy with a camera" />
       </Image>
+      <Wave />
     </AboutSec>
   );
 };
