@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This is not my portfolio, this project is for learning purpose.
+This is a demo portfolio which uses framer-motion and react-router for Animation and Routing respectively.\
+This project is for learning purpose.
 
 ## Available Scripts
 
